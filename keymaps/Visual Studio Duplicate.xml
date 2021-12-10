@@ -1,5 +1,9 @@
 <keymap version="1" name="Visual Studio Duplicate" parent="Visual Studio">
   <action id="ActivateStructureToolWindow" />
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
+  <action id="EditorDuplicate" />
+  <action id="FileChooser.GotoDesktop" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
@@ -8,6 +12,10 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="SendEOF" />
   <action id="ShowFilterPopup" />
   <action id="UsageGrouping.FileStructure" />
 </keymap>
