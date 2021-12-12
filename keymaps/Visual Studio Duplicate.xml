@@ -1,7 +1,18 @@
 <keymap version="1" name="Visual Studio Duplicate" parent="Visual Studio">
   <action id="ActivateStructureToolWindow" />
+  <action id="Adtui.ZoomToFitAction">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+  </action>
   <action id="Arrangement.Rule.Edit" />
   <action id="BookmarksView.Rename" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl alt divide" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
@@ -12,8 +23,14 @@
   <action id="Diff.ShowDiff" />
   <action id="EditorDuplicate" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="Graph.ActualSize">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+  </action>
   <action id="GuiDesigner.EditComponent" />
   <action id="GuiDesigner.EditGroup" />
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
