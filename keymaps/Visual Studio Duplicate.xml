@@ -14,6 +14,8 @@
     <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.Jpa.GenerateSql" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -21,7 +23,18 @@
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="Diff.ShowDiff" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="Docker.RemoteServers.StartComposeService" />
+  <action id="Docker.RemoteServers.StartContainer" />
+  <action id="EditorCompleteStatement" />
   <action id="EditorDuplicate" />
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="Graph.ActualSize">
     <keyboard-shortcut first-keystroke="ctrl divide" />
@@ -31,6 +44,7 @@
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
+  <action id="KotlinShellExecute" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
@@ -49,9 +63,13 @@
   </action>
   <action id="SendEOF" />
   <action id="ShowFilterPopup" />
+  <action id="SplitChooser.Duplicate" />
   <action id="Table-startEditing" />
+  <action id="Terminal.SmartCommandExecution.Debug" />
+  <action id="Terminal.SmartCommandExecution.Run" />
   <action id="Tree-startEditing" />
   <action id="UsageGrouping.FileStructure" />
+  <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
 </keymap>
