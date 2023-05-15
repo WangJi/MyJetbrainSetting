@@ -6,19 +6,19 @@
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="fnc" type="SQL" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="pkb" type="SQL" />
+      <removed_mapping ext="pks" type="SQL" />
+      <removed_mapping ext="prc" type="SQL" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
-      <mapping ext="fnc" type="DBN-PSQL" />
-      <mapping ext="pkb" type="DBN-PSQL" />
+      <removed_mapping ext="tpb" type="SQL" />
+      <removed_mapping ext="tps" type="SQL" />
+      <removed_mapping ext="trg" type="SQL" />
+      <removed_mapping ext="vw" type="SQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
-      <mapping ext="pks" type="DBN-PSQL" />
-      <mapping ext="prc" type="DBN-PSQL" />
-      <mapping ext="tpb" type="DBN-PSQL" />
       <mapping ext="tpe" type="DBN-PSQL" />
-      <mapping ext="tps" type="DBN-PSQL" />
-      <mapping ext="trg" type="DBN-PSQL" />
-      <mapping ext="vw" type="DBN-SQL" />
     </extensionMap>
   </component>
 </application>
